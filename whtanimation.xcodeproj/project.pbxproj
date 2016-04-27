@@ -13,6 +13,11 @@
 		8E26AB691CD0CA7E00702CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E26AB671CD0CA7E00702CB0 /* Main.storyboard */; };
 		8E26AB6B1CD0CA7E00702CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E26AB6A1CD0CA7E00702CB0 /* Assets.xcassets */; };
 		8E26AB6E1CD0CA7E00702CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E26AB6C1CD0CA7E00702CB0 /* LaunchScreen.storyboard */; };
+		8E26AB821CD0CAAE00702CB0 /* HTAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26AB771CD0CAAE00702CB0 /* HTAnimator.m */; };
+		8E26AB831CD0CAAE00702CB0 /* HTBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26AB791CD0CAAE00702CB0 /* HTBasicAnimation.m */; };
+		8E26AB841CD0CAAE00702CB0 /* HTGroupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26AB7B1CD0CAAE00702CB0 /* HTGroupAnimation.m */; };
+		8E26AB851CD0CAAE00702CB0 /* HTSeqAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26AB7D1CD0CAAE00702CB0 /* HTSeqAnimations.m */; };
+		8E26AB861CD0CAAE00702CB0 /* HTUnityFuc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E26AB7F1CD0CAAE00702CB0 /* HTUnityFuc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,18 @@
 		8E26AB6A1CD0CA7E00702CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E26AB6D1CD0CA7E00702CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E26AB6F1CD0CA7E00702CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E26AB761CD0CAAE00702CB0 /* HTAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAnimator.h; sourceTree = "<group>"; };
+		8E26AB771CD0CAAE00702CB0 /* HTAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAnimator.m; sourceTree = "<group>"; };
+		8E26AB781CD0CAAE00702CB0 /* HTBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBasicAnimation.h; sourceTree = "<group>"; };
+		8E26AB791CD0CAAE00702CB0 /* HTBasicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBasicAnimation.m; sourceTree = "<group>"; };
+		8E26AB7A1CD0CAAE00702CB0 /* HTGroupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTGroupAnimation.h; sourceTree = "<group>"; };
+		8E26AB7B1CD0CAAE00702CB0 /* HTGroupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTGroupAnimation.m; sourceTree = "<group>"; };
+		8E26AB7C1CD0CAAE00702CB0 /* HTSeqAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSeqAnimations.h; sourceTree = "<group>"; };
+		8E26AB7D1CD0CAAE00702CB0 /* HTSeqAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSeqAnimations.m; sourceTree = "<group>"; };
+		8E26AB7E1CD0CAAE00702CB0 /* HTUnityFuc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTUnityFuc.h; sourceTree = "<group>"; };
+		8E26AB7F1CD0CAAE00702CB0 /* HTUnityFuc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTUnityFuc.m; sourceTree = "<group>"; };
+		8E26AB801CD0CAAE00702CB0 /* UntityFunc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UntityFunc.hpp; sourceTree = "<group>"; };
+		8E26AB811CD0CAAE00702CB0 /* WHTAnimationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHTAnimationHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 		8E26AB5D1CD0CA7E00702CB0 /* whtanimation */ = {
 			isa = PBXGroup;
 			children = (
+				8E26AB751CD0CAAE00702CB0 /* WHTAnimation */,
 				8E26AB611CD0CA7E00702CB0 /* AppDelegate.h */,
 				8E26AB621CD0CA7E00702CB0 /* AppDelegate.m */,
 				8E26AB641CD0CA7E00702CB0 /* ViewController.h */,
@@ -77,6 +95,25 @@
 				8E26AB5F1CD0CA7E00702CB0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E26AB751CD0CAAE00702CB0 /* WHTAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8E26AB761CD0CAAE00702CB0 /* HTAnimator.h */,
+				8E26AB771CD0CAAE00702CB0 /* HTAnimator.m */,
+				8E26AB781CD0CAAE00702CB0 /* HTBasicAnimation.h */,
+				8E26AB791CD0CAAE00702CB0 /* HTBasicAnimation.m */,
+				8E26AB7A1CD0CAAE00702CB0 /* HTGroupAnimation.h */,
+				8E26AB7B1CD0CAAE00702CB0 /* HTGroupAnimation.m */,
+				8E26AB7C1CD0CAAE00702CB0 /* HTSeqAnimations.h */,
+				8E26AB7D1CD0CAAE00702CB0 /* HTSeqAnimations.m */,
+				8E26AB7E1CD0CAAE00702CB0 /* HTUnityFuc.h */,
+				8E26AB7F1CD0CAAE00702CB0 /* HTUnityFuc.m */,
+				8E26AB801CD0CAAE00702CB0 /* UntityFunc.hpp */,
+				8E26AB811CD0CAAE00702CB0 /* WHTAnimationHeader.h */,
+			);
+			path = WHTAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E26AB851CD0CAAE00702CB0 /* HTSeqAnimations.m in Sources */,
 				8E26AB661CD0CA7E00702CB0 /* ViewController.m in Sources */,
+				8E26AB861CD0CAAE00702CB0 /* HTUnityFuc.m in Sources */,
 				8E26AB631CD0CA7E00702CB0 /* AppDelegate.m in Sources */,
+				8E26AB821CD0CAAE00702CB0 /* HTAnimator.m in Sources */,
 				8E26AB601CD0CA7E00702CB0 /* main.m in Sources */,
+				8E26AB841CD0CAAE00702CB0 /* HTGroupAnimation.m in Sources */,
+				8E26AB831CD0CAAE00702CB0 /* HTBasicAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = whtanimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpay.whtanimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mit.whtanimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -275,8 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = whtanimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cpay.whtanimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mit.whtanimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
